@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Debdut | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Debdut</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="home">
+  <div class="home-content">
+    <h1>Hi, I'm <span>Debdut Adhikary</span></h1>
+    <h3>I am a <span class="typing"></span></h3>
+    <button onclick="scrollToAbout()">Know More</button>
+  </div>
+
+  <div class="home-image">
+      <img src="Deb.jpg" alt="Debdut Photo">
+    </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate web developer skilled in building responsive 
+    and interactive websites using modern technologies. 
+    I love solving problems and building creative projects.
+  </p>
+</section>
+
+<section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skill-container">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Java Basics</div>
+     <div class="card">C </div>
+      <div class="card">Python </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
+    <div class="project-card">
+      <h3>Calculator</h3>
+      <p>Basic calculator using HTML, CSS & JS.</p>
+    </div>
+    <div class="project-card">
+      <h3>Tic Tac Toe</h3>
+      <p>Interactive game with JavaScript logic.</p>
+    </div>
+    <div class="project-card">
+      <h3>Rock Paper Scissors</h3>
+      <p>Fun browser-based game project.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+</section>
+
+<footer>
+  © 2026 Debdut Adhikary | Portfolio
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
